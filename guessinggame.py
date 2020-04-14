@@ -5,7 +5,17 @@ guess = int(input())
 
 if guess < answer:
     print("higher")
+    guess = int(input())
+    if guess == answer:
+        print("You got it!")
+    else:
+        print("wrong!")
 elif guess > answer:
     print("lower")
+    guess = int(input())
+    if guess == answer:
+        print("You got it!")
+    else:
+        print("wrong!")
 else:
     print("You got it!")
