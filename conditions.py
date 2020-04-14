@@ -1,5 +1,14 @@
 age = int(input("What is your age? "))
 
-if age >= 16 and age <= 65:
+# if age >= 16 and age <= 65:
+if 16 <= age <= 65:
     print("Work till you die")
+else:
+    print("Enjoy it while it lasts")
 
+print("-" * 80)
+
+if age < 16 or age > 65:
+    print("Enjoy it while it lasts")
+else:
+    print("Work till you die")
